@@ -129,19 +129,6 @@ banner5 = f"""
 """
 
 banner6 = f"""
-    888888ba  dP     dP   .88888.  888888ba   88888888b .d88888b   888888ba  dP         .88888.  dP d888888P          dP    dP 
-    88    `8b 88     88  d8'   `8b 88    `8b  88        88.    "'  88    `8b 88        d8'   `8b 88    88             Y8.  .8P 
-   a88aaaa8P' 88aaaaa88a 88     88 88     88 a88aaaa    `Y88888b. a88aaaa8P' 88        88     88 88    88              Y8aa8P  
-    88        88     88  88     88 88     88  88              `8b  88        88        88     88 88    88    88888888 d8'  `8b 
-    88        88     88  Y8.   .8P 88     88  88        d8'   .8P  88        88        Y8.   .8P 88    88             88    88 
-    dP        dP     dP   `8888P'  dP     dP  88888888P  Y88888P   dP        88888888P  `8888P'  dP    dP             dP    dP 
-   oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-     
-           {color.RED}{version}{color.WHITE}               {color.WHITE}BY github.com/U7P4L-IN
-
-"""
-
-banner10 = f"""
 
 
    :::::::::  :::    :::  ::::::::  ::::    ::: :::::::::: ::::::::  :::::::::  :::        :::::::: ::::::::::: :::::::::::             :::    ::: 
@@ -153,6 +140,21 @@ banner10 = f"""
    ###        ###    ###  ########  ###    #### ########## ########  ###        ########## ######## ###########     ###                 ###    ### 
 
             {color.RED}{version}{color.WHITE}                                {color.WHITE}BY github.com/U7P4L-IN
+
+"""
+
+banner10 = f"""
+
+
+    888888ba  dP     dP   .88888.  888888ba   88888888b .d88888b   888888ba  dP         .88888.  dP d888888P          dP    dP 
+    88    `8b 88     88  d8'   `8b 88    `8b  88        88.    "'  88    `8b 88        d8'   `8b 88    88             Y8.  .8P 
+   a88aaaa8P' 88aaaaa88a 88     88 88     88 a88aaaa    `Y88888b. a88aaaa8P' 88        88     88 88    88              Y8aa8P  
+    88        88     88  88     88 88     88  88              `8b  88        88        88     88 88    88    88888888 d8'  `8b 
+    88        88     88  Y8.   .8P 88     88  88        d8'   .8P  88        88        Y8.   .8P 88    88             88    88 
+    dP        dP     dP   `8888P'  dP     dP  88888888P  Y88888P   dP        88888888P  `8888P'  dP    dP             dP    dP 
+   oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+     
+           {color.RED}{version}{color.WHITE}               {color.WHITE}BY github.com/U7P4L-IN
 
 """
 
