@@ -357,4 +357,4 @@ pkg install nmap
 # Support Me
 If you like my work you can support me via :
 
-You can also give this repository a star to show more people and they can use this repository
+You can also give this repository a star⭐🌟 to show more people and they can use this repository
