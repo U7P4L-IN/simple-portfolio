@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="intro.css">
+    <title>Utpal Mallick Ongkon</title>
+
+<link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+</head>
+
+<body>
+    <header class="container">
+        <div class="page-header">
+            <div class="logo">
+                <a href="#">Utpal Mallick Ongkon</a>
+            </div>
+            <input type="checkbox" id="click">
+
+            <label for="click" class="mainicon">
+                <div class="menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+            <ul>
+                <li><a href="#"  class="active" style="--navAni:1">Home</a></li>
+                <li><a href="#" style="--navAni:2">About</a></li>
+                <li><a href="#" style="--navAni:3">Skills</a></li>
+                <li><a href="#" style="--navAni:4">Portfolio</a></li>
+                <li><a href="#" style="--navAni:5">Contact</a></li>
+            </ul>
+            <label class="mode">
+                <input type="checkbox" id="darkbtn">
+                <i class='bx bxs-moon'></i>
+            </label>
+        </div>
+    </header>
+
+
+    <section class="container">
+        <div class="main">
+            <div class="social">
+                <a href="#" style="--socialAni:1"><i class='bx bxl-linkedin'></i></a>
+                <a href="#" style="--socialAni:2"><i class='bx bxl-instagram'></i></a>
+                <a href="#" style="--socialAni:4"><i class='bx bxl-facebook-circle'></i></a>
+            </div>
+            <div class="detail">
+                <h1>Hi, I'm <span>U7P4L 1N</span></h1>
+                <h3>Web Developer</h3>
+                <p>I'm a professional Web Developer. Our Main Goal to help & Satisficed the Local & Global Clients by
+                    web development solutions
+                </p>
+                <div class="btn">
+                    <button>Download CV</button>
+                </div>
+                
+            </div>
+            <div class="img-sec">
+                <div class="images">
+                    <img src="sahr.png" alt="" class="img-w">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+                const darkbtn = document.getElementById('darkbtn');
+        const body = document.body;
+        const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+        if (isDarkMode) {
+            body.classList.add('dark-mode');
+            darkbtn.checked = true;
+        }
+
+        darkbtn.addEventListener('change', () => {
+            if (darkbtn.checked) {
+                body.classList.add('dark-mode');
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                body.classList.remove('dark-mode');
+                localStorage.setItem('darkMode', 'disabled');
+            }
+        });
+    </script>
+</body>
+
+</html>
